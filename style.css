@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
     .container {
         height: 100vh;
         width: 100%;
@@ -116,7 +116,7 @@
 
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 600px) {
     .container {
         height: 100vh;
         width: 100%;
@@ -224,6 +224,79 @@
 
 }
 
+@media screen and (min-width: 992px) {
+
+
+    .logo {
+        width: 200px;
+        cursor: pointer;
+    }
+
+    .tray {
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .search {
+        width: 20px;
+        cursor: pointer;
+        margin-right: 120px;
+    }
+
+    nav {
+        flex: 1;
+        padding-left: 60px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0px 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .content h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 43px;
+        font-weight: 500;
+    }
+
+    /* tulisan maintext */
+    .content p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+
+    .content {
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+
+    .content .btn {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .feature-img {
+        height: 87%;
+        width: 66%;
+    }
+
+    .linebottom {
+        /* transform: rotate(-90deg); */
+        position: absolute;
+        left: 100px;
+        width: 280px;
+        bottom: 10px;
+    }
+
+}
+
 @media screen and (min-width: 1366px) {
 
     .content h1 {
@@ -266,11 +339,11 @@
     }
 
     .tray {
-        width: 40px;
+        width: 35px;
     }
 
     .search {
-        width: 30px;
+        width: 25px;
     }
 
     .content h1 {
