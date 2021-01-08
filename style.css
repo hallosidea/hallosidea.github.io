@@ -273,7 +273,7 @@
 
     .content {
         margin-left: 3%;
-        margin-top: 20%;
+        margin-top: 13%;
     }
 
     .content .btn {
@@ -290,7 +290,7 @@
     .linebottom {
         /* transform: rotate(-90deg); */
         position: absolute;
-        left: 100px;
+        left: 170px;
         width: 280px;
         bottom: 10px;
     }
