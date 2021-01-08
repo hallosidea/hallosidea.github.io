@@ -299,8 +299,14 @@
 
 @media screen and (min-width: 1280px) {
 
+
+    .logo {
+        width: 244px;
+        cursor: pointer;
+    }
+
     .content h1 {
-        font-size: 56px;
+        font-size: 48px;
     }
 
     /* tulisan maintext */
@@ -320,12 +326,12 @@
 
     .feature-img {
         height: 87%;
-        width: 62%;
+        width: 914px;
     }
 
     .linebottom {
-        left: 140px;
-        width: 400px;
+        left: 106px;
+        width: 309px;
         bottom: 10px;
     }
 }
