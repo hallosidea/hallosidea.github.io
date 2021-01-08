@@ -226,7 +226,6 @@
 
 @media screen and (min-width: 992px) {
 
-
     .logo {
         width: 200px;
         cursor: pointer;
@@ -273,7 +272,7 @@
 
     .content {
         margin-left: 3%;
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .content .btn {
@@ -325,17 +324,16 @@
     }
 
     .feature-img {
-        height: 533px;
-        width: 787px;
+        height: 87%;
+        width: 66%;
     }
 
     .linebottom {
-        left: 106px;
+        left: 180px;
         width: 309px;
         bottom: 10px;
     }
 }
-
 
 /* Media  query */
 @media screen and (min-width: 1920px) {
@@ -372,11 +370,12 @@
     }
 
     .feature-img {
-        width: 67%;
+        height: 87%;
+        width: 66%;
     }
 
     .linebottom {
-        left: 230px;
+        left: 140px;
         width: 500px;
         bottom: 30px;
     }
