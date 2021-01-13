@@ -94,7 +94,7 @@
         box-sizing: border-box;
         text-decoration: none;
         color: #fff;
-        box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+        /* box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15); */
     }
 
     .feature-img {
@@ -129,26 +129,31 @@
         position: relative;
     }
 
+    /* bagian awal */
+
     .navbar {
-        width: 100%;
-        height: 13vh;
-        margin: auto;
+        width: 80%;
+        height: 10%;
+        margin-top: -100px;
         display: flex;
         align-items: center;
+        position: fixed;
+        background-color: white;
     }
 
     .logo {
-        width: 200px;
+        width: 15.625vw;
         cursor: pointer;
     }
 
     .tray {
-        width: 30px;
+        width: 2.34vw;
+        margin-right: -100px;
         cursor: pointer;
     }
 
     .search {
-        width: 20px;
+        width: 1.56vw;
         cursor: pointer;
         margin-right: 120px;
     }
@@ -171,7 +176,7 @@
 
     .content h1 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 33px;
+        font-size: 3.36vw;
         font-weight: 500;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -181,19 +186,20 @@
     /* tulisan maintext */
     .content p {
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
+        font-size: 2.34vw;
         font-weight: 400;
         color: #595959;
     }
 
     .content {
         margin-left: 3%;
-        margin-top: 20%;
+        margin-top: 10%;
+        padding-top: 120px;
     }
 
     .content .btn {
         font-family: 'Montserrat', sans-serif;
-        font-size: 12px;
+        font-size: 1.2vw;
         font-weight: 400;
         display: inline-block;
         margin-top: 70px;
@@ -203,13 +209,15 @@
         box-sizing: border-box;
         text-decoration: none;
         color: #fff;
-        box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+        /* box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15); */
     }
 
     .feature-img {
-        height: 87%;
-        width: 66%;
         position: absolute;
+        height: 41.64vw;
+        width: 61.48vw;
+        margin-top: -30px;
+        top: 0;
         bottom: 0;
         right: 0;
     }
@@ -217,169 +225,67 @@
     .linebottom {
         /* transform: rotate(-90deg); */
         position: absolute;
-        left: 50px;
-        width: 240px;
-        bottom: 10px;
+        height: 8vw;
+        left: 17.40vw;
+        width: 26.56vw;
+        bottom: 8vw;
     }
 
-}
+    /* bagian kedua */
 
-@media screen and (min-width: 992px) {
-
-    .logo {
-        width: 200px;
-        cursor: pointer;
+    .container_kedua {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: initial;
+        padding: 4rem 0;
     }
 
-    .tray {
-        width: 30px;
-        cursor: pointer;
+    .bd-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 2rem;
+        width: calc(100% - 2rem);
     }
 
-    .search {
-        width: 20px;
-        cursor: pointer;
-        margin-right: 120px;
+    .content_kedua {
+        margin-left: 10%;
+        margin-top: 0;
     }
 
-    nav {
-        flex: 1;
-        padding-left: 60px;
+    .feature-img-2 {
+        display: flex;
+        padding-top: 1rem;
+        overflow: hidden;
     }
 
-    nav ul li {
-        display: inline-block;
-        list-style: none;
-        margin: 0px 20px;
+    .feature-img-2 img {
+        height: 33.125vw;
+        width: 26.1vw;
     }
 
-    nav ul li a {
-        text-decoration: none;
-        color: #333;
-    }
-
-    .content h1 {
+    .tulisan_kedua {
         font-family: 'Montserrat', sans-serif;
-        font-size: 43px;
-        font-weight: 500;
-    }
-
-    /* tulisan maintext */
-    .content p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
-    }
-
-    .content {
-        margin-left: 3%;
-        margin-top: 15%;
-    }
-
-    .content .btn {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
+        font-size: 1.80vw;
         font-weight: 400;
+        color: #595959;
+        margin-left: 80px;
+        margin-top: 130px;
     }
 
-    .feature-img {
-        height: 87%;
-        width: 66%;
+    hr {
+        width: 0.8px;
+        height: 200px;
+        background-color: black;
+        margin-left: 40px;
+        margin-top: 90px;
     }
 
-    .linebottom {
-        /* transform: rotate(-90deg); */
-        position: absolute;
-        left: 100px;
-        width: 280px;
-        bottom: 10px;
+    .tulisan_kedua_garis {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.4vw;
+        font-weight: 500;
+        color: #474747;
+        margin-top: 125px;
+        margin-left: 40px;
     }
-
-}
-
-@media screen and (min-width: 1280px) {
-
-
-    .logo {
-        width: 244px;
-        cursor: pointer;
-        margin-top: 20px;
-    }
-
-    .content h1 {
-        font-size: 48px;
-    }
-
-    /* tulisan maintext */
-    .content p {
-        font-size: 30px;
-    }
-
-    .content {
-        margin-left: 3%;
-        margin-top: 12%;
-    }
-
-    .content .btn {
-        font-size: 20px;
-        padding: 7px 30px;
-    }
-
-    .feature-img {
-        height: 87%;
-        width: 62%;
-    }
-
-    .linebottom {
-        left: 220px;
-        width: 309px;
-        bottom: 10px;
-    }
-}
-
-/* Media  query */
-@media screen and (min-width: 1920px) {
-
-    .logo {
-        width: 240px;
-        margin-top: 0px;
-    }
-
-    .tray {
-        width: 35px;
-    }
-
-    .search {
-        width: 25px;
-    }
-
-    .content h1 {
-        font-size: 76px;
-    }
-
-    /* tulisan maintext */
-    .content p {
-        font-size: 40px;
-    }
-
-    .content {
-        margin-left: 3%;
-        margin-top: 13%;
-    }
-
-    .content .btn {
-        font-size: 25px;
-        padding: 10px 30px;
-    }
-
-    .feature-img {
-        height: 87%;
-        width: 62%;
-    }
-
-    .linebottom {
-        left: 320px;
-        width: 500px;
-        bottom: 30px;
-    }
-
 }
