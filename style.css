@@ -120,9 +120,6 @@
     .container {
         height: 100vh;
         width: 100%;
-        /* background-image: url('images/background.png'); */
-        background-position: center;
-        background-size: cover;
         padding-left: 5%;
         padding-right: 5%;
         box-sizing: border-box;
@@ -131,55 +128,42 @@
 
     /* bagian awal */
 
-    .navbar {
-        width: 80%;
-        height: 10%;
-        margin-top: -100px;
+    #navbar {
+        width: 100%;
+        height: 5.46875vw;
         display: flex;
         align-items: center;
         position: fixed;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
     }
 
     .logo {
         width: 15.625vw;
         cursor: pointer;
+        margin-left: 5vw;
+        margin-top: 2vw;
     }
 
     .tray {
         width: 2.34vw;
-        margin-right: -100px;
+        margin-left: 7.8125vw;
         cursor: pointer;
+        margin-bottom: 17px;
     }
 
     .search {
+        margin-left: 60vw;
         width: 1.56vw;
         cursor: pointer;
-        margin-right: 120px;
-    }
-
-    nav {
-        flex: 1;
-        padding-left: 60px;
-    }
-
-    nav ul li {
-        display: inline-block;
-        list-style: none;
-        margin: 0px 20px;
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        color: #333;
+        margin-bottom: 17px;
     }
 
     .content h1 {
         font-family: 'Montserrat', sans-serif;
         font-size: 3.36vw;
         font-weight: 500;
-        margin-top: 10px;
         margin-bottom: 10px;
+        margin-top: 10px;
         color: #474747;
     }
 
@@ -192,9 +176,8 @@
     }
 
     .content {
-        margin-left: 3%;
-        margin-top: 10%;
-        padding-top: 120px;
+        margin-left: 7%;
+        margin-top: 15.625vw;
     }
 
     .content .btn {
@@ -202,7 +185,7 @@
         font-size: 1.2vw;
         font-weight: 400;
         display: inline-block;
-        margin-top: 70px;
+        margin-top: 5.46vw;
         background: linear-gradient(45deg, #ba7d5a, #ba7d5a);
         border-radius: 25px;
         padding: 7px 30px;
@@ -213,22 +196,21 @@
     }
 
     .feature-img {
-        position: absolute;
-        height: 41.64vw;
-        width: 61.48vw;
-        margin-top: -30px;
-        top: 0;
+        margin-left: 35.40vw;
+        height: 42.65vw;
+        width: 57.57vw;
         bottom: 0;
         right: 0;
+        margin-top: -28.9vw;
     }
 
     .linebottom {
         /* transform: rotate(-90deg); */
-        position: absolute;
-        height: 8vw;
-        left: 17.40vw;
+        margin-top: -120px;
+        height: 10vw;
+        margin-left: 9.375vw;
         width: 26.56vw;
-        bottom: 8vw;
+        /* bottom: 0vw; */
     }
 
     /* bagian kedua */
@@ -268,16 +250,16 @@
         font-size: 1.80vw;
         font-weight: 400;
         color: #595959;
-        margin-left: 80px;
-        margin-top: 130px;
+        margin-left: 6.25vw;
+        margin-top: 10vw;
     }
 
     hr {
-        width: 0.8px;
-        height: 200px;
+        width: 0.0625vw;
+        height: 15.625vw;
         background-color: black;
-        margin-left: 40px;
-        margin-top: 90px;
+        margin-left: 3.125vw;
+        margin-top: 7vw;
     }
 
     .tulisan_kedua_garis {
@@ -285,7 +267,16 @@
         font-size: 2.4vw;
         font-weight: 500;
         color: #474747;
-        margin-top: 125px;
-        margin-left: 40px;
+        margin-top: 9.76vw;
+        margin-left: 3.125vw;
+    }
+
+    .flowerbottom {
+        /* transform: rotate(-90deg); */
+        height: 5.85vw;
+        width: 10.78vw;
+        margin-bottom: -1.56vw;
+        margin-left: 73.4vw;
+        /* margin-right: 10px; */
     }
 }
