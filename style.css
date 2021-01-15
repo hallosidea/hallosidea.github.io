@@ -160,14 +160,14 @@ html {
         width: 2.34vw;
         margin-left: 7.8125vw;
         cursor: pointer;
-        margin-bottom: 17px;
+        margin-bottom: 1.32vw;
     }
 
     .search {
         margin-left: 60vw;
         width: 1.56vw;
         cursor: pointer;
-        margin-bottom: 17px;
+        margin-bottom: 1.32vw;
     }
 
     .content h1 {
@@ -200,7 +200,7 @@ html {
         margin-top: 5.46vw;
         background: linear-gradient(45deg, #ba7d5a, #ba7d5a);
         border-radius: 25px;
-        padding: 7px 30px;
+        padding: 0.5vw 2.34vw;
         box-sizing: border-box;
         text-decoration: none;
         color: #fff;
