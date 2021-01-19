@@ -269,13 +269,13 @@ html {
         margin-top: 2vw;
     }
 
-    hr {
+    /* hr {
         width: 0.0625vw;
         height: 15.625vw;
         background-color: black;
         margin-left: 3.125vw;
         margin-top: 7vw;
-    }
+    } */
 
     .tulisan_kedua_garis {
         font-family: 'Montserrat', sans-serif;
