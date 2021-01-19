@@ -1,5 +1,7 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
 
 * {
     margin: 0;
@@ -243,7 +245,7 @@ html {
     }
 
     .content_kedua {
-        margin-left: 10%;
+        margin-left: 0;
         margin-top: 0;
     }
 
@@ -254,8 +256,8 @@ html {
     }
 
     .feature-img-2 img {
-        height: 33.125vw;
-        width: 26.1vw;
+        height: 39vw;
+        width: 42.1vw;
     }
 
     .tulisan_kedua {
@@ -264,7 +266,7 @@ html {
         font-weight: 400;
         color: #595959;
         margin-left: 6.25vw;
-        margin-top: 10vw;
+        margin-top: 2vw;
     }
 
     hr {
@@ -279,17 +281,27 @@ html {
         font-family: 'Montserrat', sans-serif;
         font-size: 2.4vw;
         font-weight: 500;
-        color: #474747;
+        color: #595959;
         margin-top: 9.76vw;
-        margin-left: 3.125vw;
+        margin-left: 6.25vw;
+    }
+
+    .tulisan_kedua_garis_bold {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.4vw;
+        font-weight: 800;
+        color: #595959;
+        margin-top: 0vw;
+        margin-left: 6.25vw;
     }
 
     .flowerbottom {
         /* transform: rotate(-90deg); */
-        height: 5.85vw;
-        width: 10.78vw;
-        /* margin-bottom: -1vw; */
-        margin-left: 73.4vw;
+        height: 4.85vw;
+        width: 8.78vw;
+        margin-top: -5vw;
+        margin-left: 85.4vw;
+        margin-bottom: 5vw;
         /* margin-right: 10px; */
     }
 
@@ -299,29 +311,34 @@ html {
         /* grid-template-columns: repeat(2, 1fr); */
         align-items: center;
         text-align: initial;
-        margin-top: 4vw;
+        margin-top: -2vw;
+        background-image: url('images/bgpage3.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: 70.3vw;
     }
 
     .bd-grid-3 {
         display: grid;
         grid-template-columns: 100%;
         grid-column-gap: 2rem;
-        width: calc(100% - 2rem);
+        /* width: calc(100% - 2rem); */
     }
 
     .content_ketiga {
         margin-left: 10%;
         margin-right: 5%;
-        margin-top: 3%;
+        margin-top: 0%;
     }
 
     .tulisan_ketiga_main {
         font-family: 'Montserrat', sans-serif;
-        font-size: 3.36vw;
+        font-size: 2.57vw;
         font-weight: 500;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        margin-left: 3vw;
+        margin-bottom: 5px;
+        /* margin-top: 10px; */
+        margin-left: 2vw;
         color: #474747;
         text-align: center;
     }
@@ -330,7 +347,7 @@ html {
         /* transform: rotate(-90deg); */
         margin-top: 1vw;
         height: 1.3vw;
-        margin-left: 34.375vw;
+        margin-left: 35.8vw;
         width: 30.56vw;
         margin-bottom: 2vw;
         /* bottom: 0vw; */
