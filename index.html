@@ -9,15 +9,28 @@
 </head>
 <body>
     <div>
-        <header id="navbar">
+        <header class="navbar">
             <div>
                 <img src="images/navbar/Logo.svg" class="logo">
                 <img src="images/navbar/tombolsearch.svg" class="search">
-                <img src="images/navbar/tomboltray.svg" class="tray">
+                <img src="images/navbar/tomboltray.svg" class="tray" onclick="openNav()">
             </div>
         </header>
 
-        <section>
+        <div id="myNav" class="overlay">
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+            <div class="overlay-content">
+                <a href="#">How to Order</a>
+                <a href="#">Price & Order</a>
+                <a href="#">Templates</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        
+        <!-- Use any element to open the sidenav
+                                                                <span onclick="openNav()">open</span> -->
+        
+        <section onclick="closeNav()">
             <div class="content">
                 <p>Cara mudah untuk</p>
                 <h1>Sebar Undangan</h1>
@@ -30,7 +43,7 @@
     </div>
 
     <div class="container_kedua">
-        <section>
+        <section onclick="closeNav()">
             <div class="content_kedua">
                 <div class="feature-img-2">
                     <img src="images/landingpage2/hugrev.jpg">
@@ -51,7 +64,7 @@
     </div>
 
     <div class="container_ketiga bd-grid-3">
-        <section>
+        <section onclick="closeNav()">
             <div>
                 <h1 class="tulisan_ketiga_main">Fitur Undangan Digital</h1>
                 <img src="images/landingpage3/garisfitur-05.png" class="lineupper">
@@ -101,7 +114,7 @@
     </div>
 
     <div class="container_keempat">
-        <section>
+        <section onclick="closeNav()">
             <div class="content_keempat">
                 <div class="feature-img-4">
                     <div class="feature-margin">
@@ -121,6 +134,7 @@
             </div>
         </section>
     </div>
+<script src="main.js"></script>
 </body>
 
 </html>
